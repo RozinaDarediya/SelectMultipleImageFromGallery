@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Bitmap bitmapimg = BitmapFactory.decodeFile(camImg);
 
             ByteArrayOutputStream blob=new ByteArrayOutputStream();
-            bitmapimg.compress(Bitmap.CompressFormat.JPEG,100,blob);
+            bitmapimg.compress(Bitmap.CompressFormat.JPEG,50,blob);
 
             byte[] bitmapdata=blob.toByteArray();
             String path = "me/photos";
