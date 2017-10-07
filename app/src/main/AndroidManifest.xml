@@ -13,8 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".demo.screens.LoginActivity"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".demo.screens.CustomPhotoGallery" />
+        <activity android:name=".demo.screens.LoginActivity">
+
+        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".CustomPhotoGalleryActivity" />
         <activity android:name=".demo.screens.DisplayProfile" />
         <activity
@@ -32,16 +35,16 @@
             android:name="com.facebook.sdk.Application"
             android:value="@string/APP_ID" />
 
-        <activity android:name=".demo.screens.SpashScreen">
+        <activity android:name=".demo.screens.SpashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HashKey">
-
-        </activity>
+        <activity android:name=".HashKey" />
+        <activity android:name=".demo.screens.AddPhotos" />
+        <activity android:name=".demo.screens.FriendList"></activity>
     </application>
 
 </manifest>

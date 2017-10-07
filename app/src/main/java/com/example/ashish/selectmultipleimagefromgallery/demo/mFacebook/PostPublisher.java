@@ -68,7 +68,7 @@ public class PostPublisher extends AppCompatActivity {
     }*/
 
     /*public void postMultiple(){
-      *//*  Intent intent = new Intent(PostPublisher.this,CustomPhotoGalleryActivity.class);
+      *//*  Intent intent = new Intent(PostPublisher.this,CustomPhotoGallery.class);
         startActivityForResult(intent,PICK_IMAGE_MULTIPLE);*//*
     }*/
 /*
